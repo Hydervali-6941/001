@@ -1,0 +1,415 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ .containercurs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 25rem;
+      /* display: flex;  */
+    } 
+
+    .crsbg{
+        /* background-image: url(../../assets/officeimgs/cherrydeck-rMILC1PIwM0-unsplash.jpg); */
+        background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url(../../assets/officeimgs/cherrydeck-rMILC1PIwM0-unsplash.jpg);
+        background-size: cover;
+        /* background-blend-mode: multiply; */
+        background-position: center;
+        align-items: center;
+        opacity: 0.9;
+        width: 100%;
+        height:25rem;
+        color: #fff;
+        /* z-index: 99999; */
+    }
+
+.curs h2{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 150px;
+    font-size: 85px;
+    font-weight: bold;
+    font-family: sans-serif;
+  
+}
+
+/*----course cards------------*/
+
+/* fonts for the text */
+@import url("https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap");
+
+#cravt{
+ height: 110vh;
+ width: 100vw;
+}
+
+.advn{
+  /* background: url("../../assets/cbncrw/Your-Career-Options-After-A-Diploma-in-Logistics-Supply-Chain-Management.jpg"); */
+   background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../../assets/cbncrw/bba-logistics-and-supply-chain-management-mumbai.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+width: 100%;
+/* background-color: #da330a; */
+}
+
+h1 {
+  border-bottom: 4px solid #494907;
+  font-size: 50px;
+  margin-left: 40px;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* margin: 0 auto 50px; */
+}
+
+h1,
+details {
+  width: 600px;
+}
+
+h1,
+summary,
+p {
+  color: #ffffff;
+}
+
+summary,
+p {
+  font-size: 16px;
+}
+
+/* section {
+  font-family: "Fredericka the Great", cursive;
+  text-align: center;
+} */
+
+.dplav{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+
+}
+
+.frst{
+height: 100%;
+width: 50%;
+/* background-color: #666666; */
+display: flex;
+justify-content: flex-start;
+align-items: center;
+margin-top: -30px;
+}
+.frst img{
+  height: 100%;
+  width: 90%;
+}
+.snd{
+  height: 100%;
+width: 50%;
+/* background-color: #e05e5e; */
+
+}
+.snd1{
+  height: 90%;
+  width: 100%;
+  display: flex;
+justify-content: flex-start;
+flex-direction: column;
+margin-top: 30px;
+
+}
+
+details {
+  /*  fixed heigh needed to achive smooth openning animation  */
+  height: 35px;
+  cursor: pointer;
+  margin-top: 50px;
+  margin-left: 80px;
+  /* padding: 10px 0; */
+  transition: all 0.5s ease-in-out;
+}
+
+details:hover {
+  transform: scale(1.1);
+}
+
+details > summary {
+  list-style: none;
+}
+
+summary {
+  border-bottom: 2px solid #926306;
+  display: flex;
+  font-size: 25px;
+  justify-content: space-between;
+  padding: 0 8px 2px;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+summary::after {
+  content: ">";
+  transform: rotate(0);
+  transition: 0.25s all ease;
+}
+
+details[open] summary:after {
+  transform: rotate(90deg);
+}
+
+/* Smoothing animation on open/close */
+
+details[open] {
+  height: 160px;
+  overflow: hidden;
+}
+
+
+
+/*--------------courses in aviation------*/
+
+
+#adplavt{
+  height: 130vh;
+  width: 100vw;
+}
+.containeravt{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../../assets/flght/justin-lim-R-4BizknlZ0-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  align-items: center;
+}
+/* .advcavt{
+  height: 100%;
+  width: 100
+
+} */
+.avth{
+ height: 100%;
+ width: 100%;
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+  /* margin-top: 10px; */
+}
+.avth h1{
+  padding-top: 10px;
+  margin-top: 10px;
+  /* align-items: center; */
+}
+/* .dpavt{
+  height: 100%;
+  width: 50%;
+  
+  display: flex;
+  justify-content: center;
+}
+.avitn{
+  width: 90%;
+  height: 100%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.avitn img{
+width: 95%;
+height: 80%;
+background-color: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+} */
+details {
+  /*  fixed heigh needed to achive smooth openning animation  */
+  height: 35px;
+  cursor: pointer;
+  margin-top: 30px;
+  margin-left: 80px;
+  /* padding: 10px 0; */
+  transition: all 0.5s ease-in-out;
+}
+
+details:hover {
+  transform: scale(1.1);
+}
+
+details > summary {
+  list-style: none;
+}
+
+summary {
+  border-bottom: 2px solid #926306;
+  display: flex;
+  font-size: 25px;
+  justify-content: space-between;
+  padding: 0 8px 2px;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+summary::after {
+  content: ">";
+  transform: rotate(0);
+  transition: 0.25s all ease;
+}
+
+details[open] summary:after {
+  transform: rotate(90deg);
+}
+
+/* Smoothing animation on open/close */
+
+details[open] {
+  height: 160px;
+  overflow: hidden;
+}
+
+/*---------sap training----------------*/
+#sap{
+  margin: 0;
+  padding: 0;
+}
+
+
+body{
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  overflow: hidden;
+  color: #666666;
+  background-color: #fff;
+
+}
+.containersap{
+  width: 100vw;
+  height:100vh;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  /* text-align: justify; */
+  background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../../assets/cbncrw/2532-SAP..jpgL.jpg);
+  /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+  /* margin-top: 80px; */
+}
+.align-center{
+  align-items: center;
+}
+/* 
+.row{
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+} */
+
+.about-area .about-items .info{
+  padding-right: 35px;
+  position: relative;
+  z-index:1;
+}
+
+.col-lg-6 .info{
+width: 55%;
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+.saph{
+width: 80%;
+height: 100%;
+/* padding-left: 100px; */
+display: flex;
+/* justify-content: space-between; */
+flex-direction: column;
+
+
+}
+.saph h1{
+/* width:90%; */
+/* height: 55px; */
+/* height: 30px; */
+display: flex;
+justify-content: center;
+  margin-bottom: 30px;
+  /* background: linear-gradient(45deg,orange,rgb(49, 134, 160)); */
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+border-radius: 10px;
+color: #fff;
+}
+
+.saph p{
+width: 100%;
+height: 50%;
+display: flex;
+justify-content: center;
+/* margin-top: 30px; */
+font-size: 18px;
+color: rgb(255, 255, 255);
+padding-left: 30px;
+}
+
+.col-lg-6 .thumb{
+height: 100%;
+width: 45%;
+display: flex;
+justify-content: center;
+}
+body {
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+/* background-color: #3f4949; */
+}
+
+.card1s {
+position: relative;
+height: 550px;
+width: 600px;
+display: flex;
+/* align-items: center; */
+justify-content: center;
+border-radius: 40px;
+background-color: #138883;
+background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4));
+box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.15), inset -5px -5px 15px rgba(255, 255, 255, 0.15), 5px 5px 15px rgba(0, 0, 0, 0.15), -5px -5px 15px rgba(255, 255, 255, 0.15)
+}
+
+.card1s::after {
+position: absolute;
+display: flex;
+justify-content: center;
+align-items: center;
+content: url('../../assets/cbncrw/sap-erp-modules.jpg');
+overflow: hidden;
+/* background-position: center; */
+background-repeat: no-repeat;
+background-size: auto;
+object-fit: contain;
+border-radius: 35px;
+inset: 7px;
+background-color: #fff;
+cursor: pointer;
+transition: all 0.5s
+}
+
+.card1s:hover::after {
+transform: translate(25px, -25px)
+}
+
+/*----questions-----*/
