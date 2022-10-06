@@ -9,6 +9,7 @@ import { TestimonialsComponent } from './testimonials/testimonials.component';
 // import { SubheaderComponent } from './subheader/subheader.component';
 // import { TopheaderComponent } from './topheader/topheader.component';
 
+
 const routes: Routes = [
   {path:'',redirectTo:'/home',pathMatch:'full'},
   {path:'home',component:HomeComponent},
@@ -27,4 +28,4 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
-export const routingcomponents = [HomeComponent,AboutusComponent,CoursesComponent]
+export const routingcomponents = [HomeComponent,AboutusComponent,CoursesComponent,ContactusComponent,TestimonialsComponent]

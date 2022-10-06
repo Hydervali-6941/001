@@ -23,7 +23,7 @@ margin-top: -20px; overflow-x: hidden; }
         height: 90px;
         width: 100%;
         padding-left: 0px;
-        margin-left: 0px;
+        margin-left: -30px;
         display: flex;
         justify-content: center;
 
@@ -147,33 +147,41 @@ margin-top: -20px; overflow-x: hidden; }
   }
 /*------habt--------*/
   .contabt{
-    height: 100%;
-    width: 100%;
+    height: 100vh !important;
+    width: 99vw !important;
     display: flex;
     flex-direction: column !important;
   }
   .abt1{
 
-    height: 100%;
+    height: 100% !important;
     width: 100% !important;
     display: flex;
     justify-content: center;
     align-items: center;
   }
+  .abtimg{
+    width: 100%;
+    height: 100% !important;
+  }
   .abt2{
     width: 100% !important;
     height: 100%;
-    margin-left: 30px !important;
+    /* margin-left: 30px !important; */
     
     display: flex;
     flex-direction: column;
-    margin-top: 0px !important;
+    margin-top: 50px !important;
   }
   .ab21{
     height: 5% !important;
   }
 .abt22{
     margin-top: 30px !important;
+}
+
+.abth{
+  margin-top: -20px ;
 }
 
 .abth1{
@@ -189,13 +197,13 @@ margin-top: -20px; overflow-x: hidden; }
 }
 .abtp{
     font-size: 12px !important;
-    margin-top: 5px !important;
+    margin-top: 20px !important;
 }
 .abtp p{
     font-size: 15px !important;
 }
 
-/*----------our courses-------------*/
+/*----------our courses------------*/
 
 .tp{
     height: 50%;
@@ -215,6 +223,7 @@ margin-top: -20px; overflow-x: hidden; }
     width: 80% !important;
     height: 95% !important;
     font-size: 12px !important;
+    margin-left: 1rem !important;
 }
 .hdf{
   font-weight: bold !important;
@@ -355,8 +364,339 @@ h2{
 
 
 
+.testimonials1-clean{
+  height: 165vh !important;
 }
 
+/*----------home component end------------*/
+
+/*----aboutus css-----------*/
+
+.habt{
+  height: 108vh !important;
+  width: 100vw;
+
+}
+.containerabt{
+  display: flex;
+  /* justify-content: flex-end !important; */
+  align-items: center;
+  width: 100%;
+  height: 26rem !important;
+  
+  }
+
+  .abtbg{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(./assets/cbncrw/img_4918-1440x600.jpg);
+      
+      background-size: cover;
+      background-position: center;
+     margin-top:4rem !important;
+     
+      opacity: 0.9;
+      width: 95% !important;
+      height: 13rem !important;
+      color: #fff;
+      
+  }
+  .abt h2{
+    font-size : 35px;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px !important;
+
+    /* margin-bottom: 300px; */
+  }
+
+  .bln1{
+    display: none;
+}
+.abtha{
+  margin-top: -40px ;
+}
+
+.mainw{
+  flex-direction: column !important;
+  height: 110vh !important;
+  width: 99vw !important;
+  
+
+}
+.first{
+  width: 100% !important;
+height: 40% !important;
+}
+
+.second{
+  width: 100% !important;
+  height: 60% !important;
+}
+
+.dv1{
+margin: 0 !important;
+width: 100% !important;
+height: 100% !important;
+
+}
+.dvh{
+  width: 100% !important;
+}
+.dvh1{
+  padding-left: 10px !important;
+  /* font-size: 22px !important; */
+}
+.dvb{
+  height: 90% !important;
+}
+.dvb h3{
+  font-size: 27px !important;
+  margin-top: 0px !important;
+}
+.dv3{
+  height: 83% !important;
+}
+.dvp p{
+  font-size: 20px !important;
+}
+/*------pgrbr----*/
+.containerbr{
+  display: block !important;
+  height: 120vh !important;
+}
+.pgrph{
+  width: 100% !important;
+  height: 70vh !important;
+
+}
+
+.brh1{
+  width: 25% !important;
+  height: 40px !important;
+  font-size: 30px !important;
+  padding-left: 20px !important;
+}
+.brh2{
+  width: 60% !important;
+  height: 34px !important;
+  font-size: 30px !important;
+  margin-top: 15px !important;
+  padding-left: 10px !important;
+}
+
+.brhs{
+  width: 100% !important;
+  height: 140px !important;
+  font-size: 32px !important;
+}
+.brhp{
+  height: 85% !important;
+}
+
+.pgrbr{
+  width: 100% !important;
+  height: 50vh !important;
+}
+
+.pbbrc{
+  margin-left: 20px !important;
+  margin-top: 20px !important;
+  height: 94% !important;
+}
+
+.one h1{
+  font-size: 24px !important;
+}
+
+.one h2{
+  font-size: 24px !important;
+}
+/*----cards-----*/
+.containerp{
+  height:170vh !important;
+  margin-top: 100px !important;
+}
+
+.card1_outer{
+  display: block !important;
+}
+
+.card1{
+  min-height: 270px !important;
+}
+/*---------our courses page----*/
+
+.containercurs{
+  height: 25rem !important;
+
+}
+
+.crsbg{
+  height: 16rem !important;
+  margin-top: 123px !important;
+}
+
+.curs h2{
+margin-top:110px !important;
+
+}
+
+/***cravt**/
+
+#cravt{
+  height: 157vh !important;
+  width: 100vw !important;
+}
+.advn{
+  height:155vh !important;
+  width: 100vw;
+  
+}
+
+.dplav{
+  display: block !important;
+}
+
+.frst{
+  height:50vh !important;
+  width: 100% !important;
+
+}
+
+.snd{
+  height: 103vh !important;
+  width: 100% !important;
+}
+
+.snd1{
+  height: 102vh !important;
+  margin-top: 20px!important;
+}
+
+.snd1 h1{
+  width: 300px !important;
+  font-size: 30px !important;
+}
+.snd1,details{
+  margin-left: 10px !important;
+  width: 300px !important;
+}
+.summary{
+  font-size: 14px !important;
+  width: 300px !important;
+}
+.snd1 p{
+  font-size: 12px !important;
+}
+details[open] {
+  height: 165px !important;
+  width: 90% !important;
+  overflow: hidden;
+}
+/*---crs avtin--*/
+#adplavt{
+  height: 130vh !important;
+}
+.containeravt{
+  height: 118vh !important;
+  width: 100vw;
+}
+.avth{
+  align-items: flex-start !important;
+}
+.avth h1{
+  font-size: 30px !important;
+  width: 330px !important;
+  margin-left: 22px !important;
+}
+.avth,details{
+margin-left: 10px !important;
+}
+.avth,summary{
+  font-size: 20px !important;
+}
+.avth p{
+  font-size: 12px !important;
+}
+details[open] {
+  height: 165px !important;
+  width: 90% !important;
+  overflow: hidden;
+}
+
+/*---sap trng-----*/
+#sap{
+  height: 171vh !important;
+  width: 100vw !important;
+}
+
+.containersap{
+  height: 170vh !important;
+  width: 100vw !important;
+  display: block !important;
+}
+.saph{
+  width:105% !important;
+height: 79vh !important;
+display: flex;
+justify-content: flex-start;
+margin-left: 0!important;
+}
+.saph h1{
+  width: 250px !important;
+  font-size: 30px !important;
+}
+.saph p{
+  padding-left: 0 !important;
+  font-size: 15px !important;
+  margin-top: 0px !important;
+  height: 85% !important;
+  
+}
+
+.col-lg-6 .thumb{
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  }
+
+  .card1s{
+    height: 400px !important;
+    width: 343px !important;
+    margin-top: 40px !important;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* position: inherit !important; */
+
+  }
+
+/*----testimonials page----------*/
+
+.testimonials-clean{
+  height: 190vh !important;
+  margin-top: 10px !important;
+  padding-top: 200px !important;
+  /* padding-top: 0 !important; */
+}
+
+/*------contact us page-----------*/
+
+.strt{
+  width: 100%;
+  height: 38rem !important;
+  padding-top: 10rem;
+}
+.strth{
+  height: 600px !important;
+  /* padding-top: 130px !important; */
+}
+.strth img{
+   padding-top: 133px !important;
+   height: 500px !important;
+}
+
+
+}
 
 
 
@@ -705,7 +1045,7 @@ h2{
         
         display: flex;
         flex-direction: column;
-        margin-top: 20px;
+        margin-top: 100px;
        
       
       }
@@ -1071,14 +1411,113 @@ h2{
       display: none;
 
     }  
+/*------------testimonials1-----------------*/
+.testimonials1-clean {
+  width: 100vw;
+  height:600px;
+  color:rgb(21, 50, 100);
+  background-color:#b7c9d1;
+  display: flex;
+  justify-content: center;
+  /* padding-top: 200px; */
+}
+
+.testimonials1-clean p {
+  color:rgb(21, 50, 100);
+}
+
+.testimonials1-clean h2 {
+  font-weight:bold;
+  margin-bottom:40px;
+  padding-top:40px;
+  color:inherit;
+}
+
+/* @media (max-width:767px) {
+  .testimonials-clean h2 {
+    margin-bottom:25px;
+    padding-top:25px;
+    font-size:24px;
+  }
+} */
+
+.testimonials1-clean .intro {
+  font-size:16px;
+  max-width:500px;
+  margin:0 auto;
+}
+
+.testimonials1-clean .intro p {
+  margin-bottom:0;
+}
+
+.testimonials1-clean .people {
+  padding:50px 0 20px;
+}
+
+.testimonials1-clean .item {
+  margin-bottom:32px;
+}
+
+/* @media (min-width:768px) {
+  .testimonials-clean .item {
+    height:220px;
+  }
+} */
+
+.testimonials1-clean .item .box {
+  padding:30px;
+  background-color:#fff;
+  position:relative;
+  margin: 10px;
+}
+
+.testimonials1-clean .item .box:after {
+  content:'';
+  position:absolute;
+  left:30px;
+  bottom:-24px;
+  width:0;
+  height:0;
+  border:15px solid transparent;
+  border-width:12px 15px;
+  border-top-color:#fff;
+}
+
+.testimonials1-clean .item .author {
+  margin-top:28px;
+  padding-left:25px;
+}
+
+.testimonials1-clean .item .name {
+  font-weight:bold;
+  margin-bottom:2px;
+  color:inherit;
+}
+
+.testimonials1-clean .item .title {
+  font-size:13px;
+  color:#9da9ae;
+}
+
+.testimonials1-clean .item .description {
+  font-size:15px;
+  margin-bottom:0;
+}
+
+.testimonials1-clean .item img {
+  max-width:40px;
+  float:left;
+  margin-right:12px;
+  margin-top:-5px;
+}
 
 
 
-
-
+/*-------contact form------------*/
 
     #contact {
-        height:600px;
+        height:800px;
         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./assets/cbncrw/cbr5.jpg);
         background-position: center center;
         background-repeat: no-repeat;
@@ -1131,3 +1570,8 @@ h2{
       input.submit-btn:hover {
         background-image: linear-gradient(180deg, #1A2E84 0%, #059DDE 100%);
       }
+      /*-------home component ends-----*/
+
+      /*----about-us css---------*/
+
+      
