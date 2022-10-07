@@ -96,10 +96,11 @@ margin-top: -20px; overflow-x: hidden; }
 .sec{
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 72vh !important;
     width: 100vw;
     background-color: black;
     margin-top: 0px !important;
+    margin-bottom: 0px !important;
   }
 
   .head{
@@ -257,7 +258,7 @@ margin-top: -20px; overflow-x: hidden; }
 #crs{
   height: 213vh !important;
   width: 100vw;
-  margin-top: 50px;
+  /* margin-top: 50px; */
 }
 
 
